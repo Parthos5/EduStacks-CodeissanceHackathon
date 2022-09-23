@@ -103,3 +103,122 @@ justify-content: center;
 .image-box{
     margin-left: 5vw;
 }
+
+/*PARTH Ka css*/
+#section4{
+    margin-top: 100px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: right;
+    align-items:center;
+    grid-gap: 50px;
+}
+
+/*#section4 div{
+    background-color:#ffb200;
+    
+}*/
+
+#perfect{
+    font-size: 50px;
+}
+
+#perfectpara{
+    margin-top: 40px;
+    color: gray;
+    white-space: wrap;
+    font-size: 20px;
+    /*width: 500px;*/
+}
+
+#learnmore{
+    height: 49px;
+    padding-left: 37px;
+    padding-right: 37px;
+    border:none;
+    background-color:rgb(78,88,178);
+    color:white;
+    font-size:15px;
+    border-radius: 25px;
+    margin-top: 40px;
+}
+
+#teacherstudent{
+    vertical-align: top;
+    margin-left: 50px;
+}
+
+#section5
+{
+    margin-top: 20px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    grid-gap: 50px;
+}
+
+#teacherstudent1{
+    vertical-align: top;
+    margin-left: 12vw;
+    width: 630px;
+}
+
+.getstarted{
+    border: 1px solid black;
+    margin: 100px;
+    padding: 0;
+    border-radius: 25px;
+    display:flex;   
+    align-items:center;
+    background: linear-gradient(135deg,#2a2a72,#009ffd );
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    box-shadow:0 0px 32px 0 rgba(0,0,0,0.37);
+    border: none; 
+    height: 200px;
+    justify-content: center;
+}
+
+.getstarted h1{
+    flex: 1;
+    color:  white;
+    font-weight: 700;
+    font-size: 40px;
+    /*background-image: linear-gradient(to right,yellow,gold); */
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    margin-left: 30px;
+}
+
+.getstartedbuttons{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 200px;
+    margin-right: 40px;
+}
+
+.getstartedbuttons button{
+    padding-left: 10px;
+    padding-right: 10px;
+    height:60px;
+    width: 170px;
+    color: black;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 2px;
+    border:none;
+    cursor: pointer;
+    background: linear-gradient(to right,yellow,gold);
+    transition: transform 0.3s;
+}
+
+.getstartedbuttons button:hover{
+    transform: scale(1.1);  
+}
+
+.getstartedbuttons button:active{
+    opacity: 0.7;
+}
+
+
