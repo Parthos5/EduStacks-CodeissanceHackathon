@@ -3,7 +3,9 @@
     margin: 0;
 }
 .header-tabs{
-    margin-left: 42vw;
+    margin-left: 35vw;
+    white-space: nowrap;
+    margin-right:40px;
 }
 .form{
     width: 400px;
