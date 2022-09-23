@@ -11,13 +11,11 @@
     <title>Portal</title>
 </head>
 <body>
-    <div id="pre-loader">
-        <h1 style="text-align: center; margin-top: 15vh">Please Wait!......</h1>
-    </div>
+    
     <div class="section-1">
         <div class="navbar">
             <div class="header-logo">
-                <img src="logo-removebg-preview.png" alt="" width="70" height="70">
+                <img src="logo-removebg-preview.png" alt="" width="90" height="90">
                 <h1>EduStacks</h1>
                 <!--<h1>Portal</h1>--->
             </div>
@@ -33,28 +31,42 @@
             </div>-->
         </div>
     </div>
-    <div class="next-1">
+    <dive class="next-1">
         <form action="" class="form">
             <div class="heading">
-            <h1 >WRITE NOTICE</h1>
+            <h2>ENTER NOTICE</h2>
         </div>
             <div class="form-boxes">
             <div class="form-box">
                 <h3>Enter Heading:</h3>
-                <input type="text" id="design" name="Heading" placeholder="Enter the Heading" required>
+                <input type="text" id="inputsubject" name="Heading" placeholder="Enter the Heading" required>
             </div>
             <div class="form-box">
             <h3>Enter Description:</h3>
-                <input type="textbox" id="design" name="context" placeholder="Enter Description" required>
+                <!--<input type="textbox" id="design" name="context" placeholder="Enter Description" required>-->
+                <input type="text" id="inputcontent" placeholder="Enter description">
             </div>
             <div class="submit-box">
                 
-                    <input type="submit" id="submit" name="context" placeholder="Submit" required>
+                    <!--<input type="submit" id="submit" name="context" placeholder="Submit" required>-->
+                    <button id="submit">Submit</button>
                 </div>
             </div>
-        
         </form>
+        
+        <div class="part-2">
+            <div class="report">
+                <div class="head">
+                    <h2>NOTICES✏️</h2>
+                </div>
+    
+                <ul id="notices">
+
+                </ul>
+
+            </div>
+        </div>
     </div>
-    <script src="script.js"></script>
+    <script src="notice.js"></script>
 </body>
 </html>
