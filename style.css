@@ -2,15 +2,43 @@
     padding: 0;
     margin: 0;
     box-shadow: none;
+    
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
 }
 .section-1{
-    background-color: #4e5cc2;
-    
+    background-color: #4e5cc2;  
 }
 .navbar{
     display: flex;
     align-items: center;
     padding: 15px;
+    
+    animation: sec1-anim 0.7s ease-in-out;
+    
+}
+/*.navbar::before
+{
+    content:"";
+    /*background-color: #211b1b;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    /*z-index: -1;
+    opacity: 0.66;
+}*/
+
+
+
+@keyframes sec1-anim {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+    
 }
 .header-logo{
 margin-left: 2vw;
@@ -31,10 +59,18 @@ justify-content: center;
     padding-left: 9vw;
 }
 .header-tabs a{
+  
     text-decoration: none;
     padding-left: 4vw;
     font-size:21px;
+    
+    
+    
 }
+.header-tabs a:hover{
+    color: yellow;
+}
+
 .header-login{
     padding-left: 17vw;
 }
@@ -42,6 +78,7 @@ justify-content: center;
     text-decoration: none;
     font-size:21px;
 }
+
 .header-login button{
     margin-left: 30px;
     font-size: 15px;
@@ -53,26 +90,60 @@ justify-content: center;
     border-radius: 15px;
 }
 
+
+.head-box button:hover{
+ cursor: pointer;
+ font-weight: bold;
+ color: #4e5cc2;
+ background-color: white;
+}
+
+
+/*Section-2*/
 .section-2{
-   /* background-image: url('backimagcurves-removebg-preview.png');*/
     background-color: #4e5cc2;
-    
     align-items: center;
     padding: 30px;
-    padding-bottom: 110px;
+    padding-bottom: 163px;
     padding-left: 0;
     padding-right: 0;
-    
+    animation: sec1-anim 0.7s ease-in-out;  
+    position: relative;  
 }
+.head-box button{
+    z-index: -1;
+}
+.header-login a:hover{
+    color: yellow;
+}
+.header-login button:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    transition-delay: 0.1s;
+}
+/*.section-2::before
+{
+    content:"";
+    background:url("backimagcurves-removebg-preview.png") no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    opacity: 0.9;    
+}*/
 .curve{
     position: absolute;
-    top: -180px;
-    
+  top: -0.5%;
+ 
     
 }
+.curve img{
+    z-index: -1;
+}
+
 .divbox{
     display: flex;
-    position: relative;
+    
  
 }
 .head-box{
@@ -85,11 +156,22 @@ justify-content: center;
     font-size: 50px;
     color: whitesmoke;
     padding-bottom: 30px;
+    animation: headbox-anim 1s ease-in-out;
+}
+@keyframes headbox-anim {
+    0%{
+        transform: skewX(53deg) translateX(-500px);    
+       }
+    100%{
+        transform: skew(0deg);
+       }
+    
 }
 .head-box p{
     font-size: 20px;
     color: white;
     padding-bottom: 40px;
+    animation: headbox-anim 1.3s ease-in-out;
 }
 .head-box button{
     font-size: 15px;
@@ -99,7 +181,241 @@ justify-content: center;
     border-radius: 25px;
     background-color: #4e5cc2;
     padding: 15px 35px 15px 35px;
+    animation: img-anim 2s ease-in;
+}
+@keyframes img-anim {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
 }
 .image-box{
     margin-left: 5vw;
+    animation: img-anim 2s ease-in;
+}
+.section-3
+{
+    padding: 5vw 0 2vw 0;
+    display: flex;
+    background-color: #f8f9f9;
+    
+}
+.curve3{
+    position: absolute;
+    top: 123%;
+    z-index: -1;
+}
+.btn:hover{
+
+    color: #009ffd;
+    background-color: white;
+}
+.content-box{
+    display: flex;
+    padding-left: 5vw;
+    position: relative;
+}
+.content-box-2
+{
+    margin-left: 5vh;
+    margin-top: 5vh;
+}
+
+#Box1:hover{
+    transform: scale(1.1);
+    color: transparent;
+    background-image: url('notice.png') ;  
+    background-repeat: no-repeat;
+   background-size: 100% 100%;
+   cursor: pointer;
+   
+}
+#Box2:hover{
+    transform: scale(1.1);
+    color: transparent;
+    background-image: url('Academic.png') ;  
+    background-repeat: no-repeat;
+   background-size: 100% 100%;
+   cursor: pointer;
+}
+#Box3:hover{
+    transform: scale(1.1);
+    color: transparent;
+    background-image: url('Schedule.jpg') ;  
+    background-repeat: no-repeat;
+   background-size: 100% 100%;
+   cursor: pointer;
+}
+#Box4:hover{
+    transform: scale(1.1);
+    color: transparent;
+    background-image: url('Activity.jpg') ;  
+    background-repeat: no-repeat;
+   background-size: 100% 100%;
+   cursor: pointer;
+}
+#Box1, #Box2, #Box3, #Box4{
+    transition: transform 0.5s;
+    margin-bottom: 45px;
+    height: 290px;
+    width: 250px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 25px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.writediv{
+    margin-left: 7vw;
+    align-items: center;
+    padding-top: 23vh;
+    justify-content: center;
+}
+.writeup{
+    align-items: center;
+    
+}
+.btn{
+    padding: 15px 35px 15px 35px;
+    font-size: 20px;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    background-color: #4e5cc2;
+    z-index: 1000;
+    
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: white;
+}
+
+#pre-loader
+{
+    background: #fff url(./preloader.gif) no-repeat center;
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    z-index: 100;    
+}
+
+/*section-4*/
+
+#section4{
+    margin-top: 100px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: right;
+    align-items:center;
+    grid-gap: 50px;
+}
+
+/*#section4 div{
+    background-color:#ffb200;
+    
+}*/
+
+#perfect{
+    font-size: 50px;
+}
+
+#perfectpara{
+    margin-top: 40px;
+    color: gray;
+    white-space: wrap;
+    font-size: 20px;
+    /*width: 500px;*/
+}
+
+#learnmore{
+    height: 49px;
+    padding-left: 37px;
+    padding-right: 37px;
+    border:none;
+    background-color:rgb(78,88,178);
+    color:white;
+    font-size:15px;
+    border-radius: 25px;
+    margin-top: 40px;
+}
+
+#teacherstudent{
+    vertical-align: top;
+    margin-left: 50px;
+}
+
+/*section-5*/
+#section5
+{
+    margin-top: 20px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    grid-gap: 50px;
+}
+
+#teacherstudent1{
+    vertical-align: top;
+    margin-left: 12vw;
+    width: 630px;
+}
+
+.getstarted{
+    border: 1px solid black;
+    margin: 100px;
+    padding: 0;
+    border-radius: 25px;
+    display:flex;   
+    align-items:center;
+    background: linear-gradient(135deg,#2a2a72,#009ffd );
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    box-shadow:0 0px 32px 0 rgba(0,0,0,0.37);
+    border: none; 
+    height: 200px;
+    justify-content: center;
+}
+
+.getstarted h1{
+    flex: 1;
+    color:  white;
+    font-weight: 700;
+    font-size: 40px;
+    /*background-image: linear-gradient(to right,yellow,gold); */
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    margin-left: 60px;
+}
+
+.getstartedbuttons{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 60px;
+    margin-right: 130px;
+}
+
+.getstartedbuttons button{
+    padding-left: 10px;
+    padding-right: 10px;
+    height:60px;
+    width: 170px;
+    color: black;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 2px;
+    border:none;
+    cursor: pointer;
+    background: linear-gradient(to right,yellow,gold);
+    transition: transform 0.3s;
+}
+
+.getstartedbuttons button:hover{
+    transform: scale(1.1);  
+}
+
+.getstartedbuttons button:active{
+    opacity: 0.7;
 }
