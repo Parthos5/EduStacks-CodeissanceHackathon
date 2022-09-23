@@ -45,6 +45,7 @@ margin-left: 2vw;
 text-align: center;
 align-items: center;
 justify-content: center;
+display: flex;
 }
 
 .header-logo h1{
@@ -56,7 +57,7 @@ justify-content: center;
 .header-tabs{
     align-items: center;
     text-align: center;
-    padding-left: 9vw;
+    padding-left:15vw;
 }
 .header-tabs a{
   

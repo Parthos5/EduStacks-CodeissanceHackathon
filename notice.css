@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header-tabs{
+    margin-left: 42vw;
+}
+.form{
+    width: 400px;
+    height: 470px;
+    background-color: #4e5cc2;
+    margin: 5vh 3vh 5vh 3vh;
+}
+.form h1{
+    background-color: #f7bc52;
+    color: white;
+    text-align: center;
+    padding: 10px;
+   
+    
+    
+}
+.heading{
+    
+    padding: 25px 20px 15px 20px;
+}
+.form-boxes{
+    margin: 30px 35px 30px 35px;
+    background-color: lightgrey;
+}
+.form-box{
+    padding: 35px 35px 0 35px;
+    color: #4e5cc2;
+}
+input
+{
+    align-items: center;
+    border: none;
+    border-radius: 3px;
+    width: 230px;
+    padding: 10px;
+}
+.submit-box input{
+    align-items: center;
+    text-align: center;
+    margin: 35px 80px 40px 80px;
+    width: 170px;
+    background-color: #f7bc52;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 15px;
+}
