@@ -1,4 +1,10 @@
+/*localStorage.removeItem("myrollno");*/
+/*localStorage.removeItem("myname");*/
+/*localStorage.removeItem("myphysics");*/
+/*localStorage.removeItem("mymaths");*/
+/*localStorage.removeItem("mychemistry");*/
 /*localStorage.clear();*/
+
 
 const reportpublish =  document.getElementById("submit-repo");
 let myname= [];

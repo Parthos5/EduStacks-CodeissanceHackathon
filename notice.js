@@ -1,4 +1,7 @@
 /*localStorage.clear();*/
+/*localStorage.removeItem("mysub");*/
+/*localStorage.removeItem("mycontent");*/
+
 
 const publishbtn =  document.getElementById("submit");
 let mysub= [];
