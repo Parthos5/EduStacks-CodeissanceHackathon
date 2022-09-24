@@ -22,7 +22,7 @@ let chemistryfromlocalstorage = JSON.parse(localStorage.getItem("mychemistry"));
 let mathsfromlocalstorage = JSON.parse(localStorage.getItem("mymaths"));
 
 function calculate(){
-    for(let q = ((myname.length)-1);q>=0;q--)
+    for(let q = 0;q<=((myname.length)-1);q++)
     {
         mytotal = parseInt(mymaths[q]) + parseInt(myphysics[q]) + parseInt(mychemistry[q]);
         insertdata.innerHTML += "<tr>"+"<td>"+myname[q]+"</td>"+ "<td>"+myrollno[q]+"</td>"+"<td>"+mymaths[q]+"</td>"+"<td>"+myphysics[q]+"</td>"+"<td>"+mychemistry[q]+"</td>"+"<td>"+mytotal+"</td>"+"</tr>";

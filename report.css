@@ -42,6 +42,14 @@
 /*Table*/
 #as-report{
     text-align: center;
+    margin:4px, 4px;
+                padding:4px;
+                
+                width: 99%;
+                height: 500px;
+                overflow-x: hidden;
+                overflow-y: auto;
+                text-align:justify;
     
    }
    table{
@@ -57,6 +65,9 @@
        margin-left: 3vw;
        margin-right: 2vw;
        width: 94vw;
+
+
+       
       
    }
    

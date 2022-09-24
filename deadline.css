@@ -24,13 +24,19 @@
     padding-top: 20px;
     padding-bottom: 20px; 
 }
+.form-box input{
+    border: 1px solid gray;
+}
+.form-box{
+    margin-top: 1vh;
+}
 
 #parentdeadline{
 
     margin:4px, 4px;
                 padding:4px;
                 
-                width: 98%;
+                width: 99%;
                 height: 500px;
                 overflow-x: hidden;
                 overflow-y: auto;
@@ -44,7 +50,8 @@
     background-color: #f7bc52;
     padding: 15px;
     margin-right: 20px;
-    width: 80px;
+    width: 84px;
+    
     text-align: center;
     font-weight: 600;
 }
