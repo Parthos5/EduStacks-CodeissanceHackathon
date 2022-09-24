@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#formreport{
+    display: flex;
+    margin: 2vh 4.5vw 2vh 4.5vw;
+    
+}
+.place-box{
+    background-color: #f7bc52;
+    padding: 20px;
+    color: white;
+    margin: 20px 30px 20px 30px;
+    border-radius: 30px;
+}
+#formreport input {
+    width: 150px;
+    height: 7px;
+    margin-left: 7px;
+    margin-right: 15px;
+}
+.name , .math, .phy, .chem, .rollno{
+    display: flex;
+    align-items: center;
+}
+.submit-report button {
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    padding: 5px;
+    border: 1px solid #4e5cc2;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.submit-report button:hover{
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+/*Table*/
+#as-report{
+    text-align: center;
+    
+   }
+   table{
+       border-collapse: collapse;
+   }
+   td,th{
+       border: 1px solid black;
+       text-align: center;
+       padding: 10px;
+   }
+   #as-table{
+       margin-top: 4vh;
+       margin-left: 3vw;
+       margin-right: 2vw;
+       width: 94vw;
+      
+   }
+   

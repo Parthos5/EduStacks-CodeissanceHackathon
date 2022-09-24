@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#createdeadline{
+    margin-top: -3.6%;
+}
+#formdeadline{
+    margin-top: -10%;
+}
+#deadlines{
+    display: flex;
+    /*padding: 20px;*/
+    background-color: #3a4590;
+    margin-top: 10px;
+    margin-left: 15px;
+    align-items: center;
+    color: white;
+    margin-right: 15px;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px; 
+}
+
+#parentdeadline{
+
+    margin:4px, 4px;
+                padding:4px;
+                
+                width: 98%;
+                height: 500px;
+                overflow-x: hidden;
+                overflow-y: auto;
+                text-align:justify;
+}
+
+#header{
+    margin-left: 20px;
+}
+#timer{
+    background-color: #f7bc52;
+    padding: 15px;
+    margin-right: 20px;
+    width: 80px;
+    text-align: center;
+    font-weight: 600;
+}
+  
