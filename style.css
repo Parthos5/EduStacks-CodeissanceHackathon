@@ -50,6 +50,7 @@ display: flex;
 
 .header-logo h1{
     margin-bottom: 10px;
+    font-size: 45px;
 }
 .navbar h1,a{
     color: #ffffff;
@@ -150,11 +151,11 @@ display: flex;
 .head-box{
     
     margin-left: 9vw;
-    margin-top: 9vh;
+    margin-top: 16vh;
     
 }
 .head-box h1{
-    font-size: 50px;
+    font-size: 40px;
     color: whitesmoke;
     padding-bottom: 30px;
     animation: headbox-anim 1s ease-in-out;
@@ -210,8 +211,8 @@ display: flex;
 }
 .btn:hover{
 
-    color: #009ffd;
-    background-color: white;
+    color: #4e5cc2;;
+    
 }
 .content-box{
     display: flex;
@@ -283,8 +284,8 @@ display: flex;
     font-size: 20px;
     border: none;
     border-radius: 25px;
-    color: white;
-    background-color: #4e5cc2;
+    color: #4e5cc2;
+    background-color: white;
     z-index: 1000;
     
 }
